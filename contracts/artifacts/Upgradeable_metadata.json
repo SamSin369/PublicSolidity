@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "replace",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ProxyStorage.sol": "Upgradeable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ProxyStorage.sol": {
+			"keccak256": "0xbfe0d4a297ca0d2f22064f7a98a964de360ac19e6e1893296cac2630573be2e5",
+			"license": "No-Idea",
+			"urls": [
+				"bzz-raw://73649beed9c1490ef8deb47e5f7cb1795dca78fb90f42ffe8e45ddc65269411b",
+				"dweb:/ipfs/QmNN66kiuoUEbwqrFxJFF8ewSbutF9w29QLttMYV3TXi1R"
+			]
+		}
+	},
+	"version": 1
+}

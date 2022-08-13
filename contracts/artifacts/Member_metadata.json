@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Name.sol": "Member"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Name.sol": {
+			"keccak256": "0x453864adb11ffb74776b56e47a9689c9c1b0924e0a82ab83817737fb1021ad55",
+			"urls": [
+				"bzz-raw://7175d9c3324bf240117d977959ad4918fb5a4a3806c16c815592259a383d3f71",
+				"dweb:/ipfs/QmXfQkArzA788JEUBSGz2KvSQBLHUkv5g8A3RAu7tmcn98"
+			]
+		}
+	},
+	"version": 1
+}

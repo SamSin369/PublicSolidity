@@ -1,0 +1,317 @@
+{
+	"id": "019cf8f32a74d2ae5ad898076bd2bda3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.17",
+	"solcLongVersion": "0.5.17+commit.d19bba13",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/SimpleWallet.sol": {
+				"content": "pragma solidity ^0.5.13;\n\ncontract SimpleWallet {\n\n    \n\n    function () external payable {\n\n    }\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/SimpleWallet.sol": {
+				"SimpleWallet": {
+					"abi": [
+						{
+							"payable": true,
+							"stateMutability": "payable",
+							"type": "fallback"
+						}
+					],
+					"devdoc": {
+						"methods": {}
+					},
+					"evm": {
+						"assembly": "    /* \"contracts/SimpleWallet.sol\":26:100  contract SimpleWallet {... */\n  mstore(0x40, 0x80)\n  callvalue\n    /* \"--CODEGEN--\":8:17   */\n  dup1\n    /* \"--CODEGEN--\":5:7   */\n  iszero\n  tag_1\n  jumpi\n    /* \"--CODEGEN--\":30:31   */\n  0x00\n    /* \"--CODEGEN--\":27:28   */\n  dup1\n    /* \"--CODEGEN--\":20:32   */\n  revert\n    /* \"--CODEGEN--\":5:7   */\ntag_1:\n    /* \"contracts/SimpleWallet.sol\":26:100  contract SimpleWallet {... */\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"contracts/SimpleWallet.sol\":26:100  contract SimpleWallet {... */\n      mstore(0x40, 0x80)\n      stop\n\n    auxdata: 0xa265627a7a723158209ad973290249b6639ad28aa4cddfe078d880949d74ba42e396b14b1cb57c689e64736f6c63430005110032\n}\n",
+						"bytecode": {
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603b80601d6000396000f3fe608060405200fea265627a7a723158209ad973290249b6639ad28aa4cddfe078d880949d74ba42e396b14b1cb57c689e64736f6c63430005110032",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3B DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 SWAP11 0xD9 PUSH20 0x290249B6639AD28AA4CDDFE078D880949D74BA42 0xE3 SWAP7 0xB1 0x4B SHR 0xB5 PUSH29 0x689E64736F6C6343000511003200000000000000000000000000000000 ",
+							"sourceMap": "26:74:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:74:0;;;;;;;"
+						},
+						"deployedBytecode": {
+							"linkReferences": {},
+							"object": "608060405200fea265627a7a723158209ad973290249b6639ad28aa4cddfe078d880949d74ba42e396b14b1cb57c689e64736f6c63430005110032",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 SWAP11 0xD9 PUSH20 0x290249B6639AD28AA4CDDFE078D880949D74BA42 0xE3 SWAP7 0xB1 0x4B SHR 0xB5 PUSH29 0x689E64736F6C6343000511003200000000000000000000000000000000 ",
+							"sourceMap": "26:74:0:-;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "11800",
+								"executionCost": "66",
+								"totalCost": "11866"
+							},
+							"external": {
+								"": "18"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "PUSH",
+									"value": "80"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "PUSH",
+									"value": "40"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "MSTORE"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "CALLVALUE"
+								},
+								{
+									"begin": 8,
+									"end": 17,
+									"name": "DUP1"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "ISZERO"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "PUSH [tag]",
+									"value": "1"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "JUMPI"
+								},
+								{
+									"begin": 30,
+									"end": 31,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 27,
+									"end": 28,
+									"name": "DUP1"
+								},
+								{
+									"begin": 20,
+									"end": 32,
+									"name": "REVERT"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "tag",
+									"value": "1"
+								},
+								{
+									"begin": 5,
+									"end": 7,
+									"name": "JUMPDEST"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "POP"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "PUSH #[$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "DUP1"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "PUSH [$]",
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "CODECOPY"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "PUSH",
+									"value": "0"
+								},
+								{
+									"begin": 26,
+									"end": 100,
+									"name": "RETURN"
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a265627a7a723158209ad973290249b6639ad28aa4cddfe078d880949d74ba42e396b14b1cb57c689e64736f6c63430005110032",
+									".code": [
+										{
+											"begin": 26,
+											"end": 100,
+											"name": "PUSH",
+											"value": "80"
+										},
+										{
+											"begin": 26,
+											"end": 100,
+											"name": "PUSH",
+											"value": "40"
+										},
+										{
+											"begin": 26,
+											"end": 100,
+											"name": "MSTORE"
+										},
+										{
+											"begin": 26,
+											"end": 100,
+											"name": "STOP"
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/SimpleWallet.sol\":\"SimpleWallet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/SimpleWallet.sol\":{\"keccak256\":\"0x023fb9b04cacb51e9906a363b15c7b728c9a54c5888b9cc8065f5fadb3808519\",\"urls\":[\"bzz-raw://a7d64f5f7116ba3032a92f75ab11ce8c46bbb7cb7acf67e94a792cd116f7b118\",\"dweb:/ipfs/QmZFdYwRuHiRf6hnJTkYgZqExNu5Ua6xXkuHEi4eajeo3J\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"methods": {}
+					}
+				}
+			}
+		},
+		"sources": {
+			"contracts/SimpleWallet.sol": {
+				"ast": {
+					"absolutePath": "contracts/SimpleWallet.sol",
+					"exportedSymbols": {
+						"SimpleWallet": [
+							6
+						]
+					},
+					"id": 7,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.5",
+								".13"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:24:0"
+						},
+						{
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"documentation": null,
+							"fullyImplemented": true,
+							"id": 6,
+							"linearizedBaseContracts": [
+								6
+							],
+							"name": "SimpleWallet",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": {
+										"id": 4,
+										"nodeType": "Block",
+										"src": "90:8:0",
+										"statements": []
+									},
+									"documentation": null,
+									"id": 5,
+									"implemented": true,
+									"kind": "fallback",
+									"modifiers": [],
+									"name": "",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "70:2:0"
+									},
+									"returnParameters": {
+										"id": 3,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "90:0:0"
+									},
+									"scope": 6,
+									"src": "61:37:0",
+									"stateMutability": "payable",
+									"superFunction": null,
+									"visibility": "external"
+								}
+							],
+							"scope": 7,
+							"src": "26:74:0"
+						}
+					],
+					"src": "0:100:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

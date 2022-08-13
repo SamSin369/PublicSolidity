@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "airDrop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "doColors",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "param",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Udemy/Airdop.sol": "Descicion"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Udemy/Airdop.sol": {
+			"keccak256": "0x4b3e0f5eeeb901620a394265ee822b1c38fe4eda38d92357aa2fc71fc8e6be4d",
+			"urls": [
+				"bzz-raw://576fb0a469dd9828fc1da17917c2c3608d8ce8ff8631e4af05fd67a908f2b60c",
+				"dweb:/ipfs/QmSmkZ3fW6Ao86Fix9beHvFwy3EZLRetJK4T5X86D3vNgY"
+			]
+		}
+	},
+	"version": 1
+}

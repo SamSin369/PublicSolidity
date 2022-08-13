@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eternalStorage",
+						"type": "address"
+					}
+				],
+				"name": "getNumberOfVotes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EthernalStorage.sol": "ballotLib"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EthernalStorage.sol": {
+			"keccak256": "0xb41dd506615421d0482fde9d645634028f0fdcb81e567322557d647cca8743e2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://328b1a4d19b7c81a1e349f56d2124d46ede51837ce208f8c7df06d8f2e75bad5",
+				"dweb:/ipfs/QmYejCH18QbRps5iLMhajJyq3Dv6jok1egxVmFug1JX7MQ"
+			]
+		}
+	},
+	"version": 1
+}

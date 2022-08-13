@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Udemy/variables.sol": "DescicionMaking"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Udemy/variables.sol": {
+			"keccak256": "0xfedeaebc93146e804c12503dbdfdf2f9a1541b2ba1185d44895a20df7a3a6dca",
+			"urls": [
+				"bzz-raw://8fedd9161e8ded1bc6df91fc322a71140173ad113ab18e0dfe60556c3d7fcc4b",
+				"dweb:/ipfs/QmPW75Robim4qWuy9zuQ1fKvoyTziTdvRkyQWwRw5qaj53"
+			]
+		}
+	},
+	"version": 1
+}
